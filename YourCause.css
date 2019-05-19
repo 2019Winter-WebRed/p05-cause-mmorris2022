@@ -1,0 +1,32 @@
+/*
+* Maggie Morris
+* 5/19/19
+* Your Cause
+*/
+
+/* THe universal selector */
+
+* {margin: 0;/* Set these before anything so you dont forget, and mess up your whole webpage */
+   padding: 0:
+}
+
+/* Body attributes here */
+
+body {
+background-color: lightblue
+}
+h1, h2, h3 {border: 3px solid green;/* change the margin and padding to make the site look more professional */
+    padding: 3px;
+    margin: 10px dotted green;
+    text-align:center;}
+#pics {margin:10px;
+       border: 3px solid green;} /* Hava a green border around all the pictures */
+p, ul {margin: 10px}
+#logo {margin:15px;/* Used an ID to just float one of the pictures and not all of them */
+       border: 3px solid green;
+       float:left; }
+header {margin: 10px;}
+#bin {margin:10px;
+       border: 3px solid green;
+      float: right;}
+
